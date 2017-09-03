@@ -1,2 +1,2 @@
 # SwiftLister
-Bulk eBay Listing Tool. Scrapes pages of HTML from Auctiva (image hosting site) and extracts the title of each listing and its display image's URL.
+Bulk eBay Listing Tool. Scrapes user-provided HTML from Auctiva.com (image hosting site) and extracts the title of each listing and its display image's URL. Checks for duplicates and warns user if they're are any (user will need to remove these manually if they wish to get rid of them). A key press from the user will then initiate population of the CSV template that the user has provided (needs to be in turbolister format). 'Turbolister_Import.csv' will then contain all listings given in the provided HTML (in turbolister format) ready to be imported into turbolister for uploading.
